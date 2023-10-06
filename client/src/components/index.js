@@ -1,0 +1,24 @@
+import Banner from "./Banner/Banner";
+import Nav from "./Nav";
+// import Services from "./Services";
+// import Work from "./Work";
+import Header from "./Header/Header";
+import Customer from "./Customer/Customer";
+// import Provider from "./Provider";
+// import HeaderToggle from "./HeaderToggle/HeaderToggle";
+import Categories from "./Categories/Categories";
+import CategoriesCard from "./CategoriesCard/CategoriesCard";
+
+// import ChooseUs from "./ChooseUs/ChooseUs";
+// import IconNdText from "./IconNdText/IconNdText";
+// import Statics from "./Statics/Statics";
+// import Jobs from "./Jobs/Jobs";
+// import JobCard from "./JobCard/JobCard";
+import Footer from "./Footer/Footer";
+import ServiceProvider from "./ServiceProvider/ServiceProvider";
+// import Filter from "./Filter/Filter";
+// import TimeSlot from "./TimeSlot/TimeSlot";
+import ServiceCard from "./ServiceCard/ServiceCard";
+import CustomerBookingDetail from "./CustomerBookingDetail/CustomerBookingDetail";
+import ConfirmPage from "./ConfirmPage/ConfirmPage";
+export { Banner, ConfirmPage, CustomerBookingDetail, Footer, ServiceCard, ServiceProvider, Nav, Header, Customer, Categories, CategoriesCard };

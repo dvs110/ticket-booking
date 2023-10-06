@@ -1,0 +1,23 @@
+@keyframes moveyellow {
+    0%{ transform:rotate(6deg); -webkit-transform:rotate(6deg); -moz-transform:rotate(6deg); -ms-transform:rotate(6deg); -o-transform:rotate(6deg); }
+    25%{ transform: rotate(0deg); -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -ms-transform: rotate(0deg); -o-transform: rotate(0deg); }
+    50%{ transform:rotate(-6deg); -webkit-transform:rotate(-6deg); -moz-transform:rotate(-6deg); -ms-transform:rotate(-6deg); -o-transform:rotate(-6deg); }
+    75%{ transform:rotate(0deg); -webkit-transform:rotate(0deg); -moz-transform:rotate(0deg); -ms-transform:rotate(0deg); -o-transform:rotate(0deg); }
+    100%{ transform: rotate(6deg); -webkit-transform: rotate(6deg); -moz-transform: rotate(6deg); -ms-transform: rotate(6deg); -o-transform: rotate(6deg); }
+}
+.yellow-div{
+   animation: moveyellow 5s infinite linear;
+   -webkit-animation: moveyellow 5s infinite linear;
+}
+
+@keyframes moveblue {
+    0%{ transform:rotate(-6deg); -webkit-transform:rotate(-6deg); -moz-transform:rotate(-6deg); -ms-transform:rotate(-6deg); -o-transform:rotate(-6deg); }
+    25%{ transform:rotate(0deg); -webkit-transform:rotate(0deg); -moz-transform:rotate(0deg); -ms-transform:rotate(0deg); -o-transform:rotate(0deg); }
+    50%{ transform:rotate(6deg); -webkit-transform:rotate(-6deg); -moz-transform:rotate(-6deg); -ms-transform:rotate(-6deg); -o-transform:rotate(-6deg); }
+    75%{ transform:rotate(0deg); -webkit-transform:rotate(0deg); -moz-transform:rotate(0deg); -ms-transform:rotate(0deg); -o-transform:rotate(0deg); }
+    100%{ transform: rotate(-6deg); -webkit-transform: rotate(-6deg); -moz-transform: rotate(-6deg); -ms-transform: rotate(-6deg); -o-transform: rotate(-6deg); }
+}
+.blue-div{
+    animation: moveblue 5s infinite linear;
+    -webkit-animation: moveblue 5s infinite linear;
+}
